@@ -117,11 +117,90 @@ APPLICATIONS:
 4)MOBILE APPLICATIONS			
 
 
-flow control
+
+Instance and Static :
+=====================
+
+1)syntax
+	static int countryCode=91;//static variable
+			int empId=1231;		//instnace variable
+
+2)Memory
+
+		static variables will get memory space ONLY ONCE at the time  .class loading into JVM
+
+		instance variables will get memory for EVERY OBJECT creation
+		
+			object creation-->memory creation
+			
+			classname objname=new classname();
+		
+3)Access
+		static variable can be accessed by using classname 	
+		instance variable can be accessed by using objref
+
+4)context 
+		unique data use instance
+		common data use static 
+		
+Methods:
+=========
+
+m1{
+10
+}
+					void,int -->return 123;
+
+accessmodifier static/instance  returntype methodname(datatype varname,.....) //method signature
+{
+//method body
+
+}
+
+public static void main(String args[])
+{
+/...
+////
+...
+
+}
+
+flow control:
+==============
+	if
+	
+	else
+	
+	
+	for
+	
+	while
+	 dowhile
+	 switch 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 operators 
 ....
+
+
+
+
+
+
 
 
 
