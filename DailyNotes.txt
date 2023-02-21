@@ -256,6 +256,78 @@ class Y extends X  sub /child
 
 }
 
+Multiple Inheritance:
+=====================
+many parents and one child 
+
+Multiple Inheritance not supported by java @class level
+Multiple Inheritance  supported by java @interface level
+
+
+
+class Parent1                 class Parent2
+{								{
+
+ m1()								m1()
+{									{
+	a+b								a-b
+}									}
+
+
+}								}
+
+
+class Child extends Parent1,Parent2
+{
+
+Child child=new Child();
+	child.m1();//ambiguity
+}
+
+interface :
+===========
+
+
+	concrete method
+	
+		method with signature and body(implementation) 
+	
+	abstract method 
+
+		method with signature and with out BODY(implementation)
+
+
+		public abstract void printDate();
+
+class		  :its a combination only concrete methods
+
+abstract class:its a combination of both concrete and abstract methods 
+
+interface 	  :its a combination of only abstract methods 
+
+
+abstraction:
+============
+		hiding the implementation by showcasing functionalities
+	
+	abstact class 	0-100%
+	
+	interface      100%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
