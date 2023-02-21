@@ -288,7 +288,7 @@ interface :
 ===========
 
 
-	concrete method
+	concrete/non-abstract/implemented method
 	
 		method with signature and body(implementation) 
 	
@@ -315,14 +315,27 @@ abstraction:
 	interface      100%
 
 
+polymorphisam:
+==============
+
+		method overloading/compile time /static binding 
+		
+		method overriding /runtime /dynamic binding
+
+
+method overloading:
+====================
+method name is same signature is different 
+
+					no of params
+					order of params
+					type of params 
 
 
 
-
-
-
-
-
+method overriding:
+====================
+method name is same implementation is different
 
 
 

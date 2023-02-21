@@ -1,9 +1,9 @@
 package com.ericcson.oops;
 
-class SuperParent
+class SuperParent  
 {
 	float salary=234.56f;
-	public void m3()
+	public void m3()//concrete method/non abstract method
 	{
 		System.out.println("welcome to india");
 	}
@@ -12,7 +12,7 @@ class SuperParent
 		System.out.println("welcome to banglore");
 	}
 }
-class Parent extends SuperParent
+class Parent1 extends SuperParent
 {
 	int marks=234;
 	public void m2()
@@ -21,7 +21,7 @@ class Parent extends SuperParent
 	}
 
 }
-public class InteritanceTest extends Parent {
+public class InteritanceTest extends Parent1 {
 
 	public void m1()
 	{
