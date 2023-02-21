@@ -1,40 +1,31 @@
+public class Welcome {
 
-class Welcome {
-
-	public static void main(String[] args) {
-		if (20==20) {
-			int x=123;}
-		else
-			System.out.println("am from else ");
+	public static void main(String[] args) {//111 "222" 23.45 false sandeep
+		int a=Integer.parseInt(args[0]); 
+		int b=Integer.parseInt(args[1]);
+		float salary=Float.parseFloat(args[2]);
+		boolean condition=Boolean.parseBoolean(args[3]);
+		String name=args[4];
+		System.out.println(condition+"Salary : "+salary);
+		int result=a+b;
+		System.out.println("Addition of two numbers : "+result);
+		System.out.println("welcome to java MR :"+name);
 		
-		
-		switch ("sandeep") {
-		case "sandeep":
-			System.out.println("hello sandeep");
-			break;
-		case "hello":
-			System.out.println("hello");
-			break;
-		case "morning":
-			System.out.println("good morning");
-			break;
-			
-		default:
-			System.out.println("not matched.... ");
-			break;
-		}	
-		
-		
-		for (int i = 1; i <= 100; i++) {
-			if(i%2!=0)
-				System.out.println(i);	
-		}
 	}
-	
-	
-	
+
 }
 
-//ctrl+shift+f -->formatting
-//ctrl+space-->suggestions
-//ctrl+\ -->to comment 
+//user understandable language 	SOURCE CODE
+
+//  JVM   0'S 1'S BINARY LANGUAGE  MACHINE UNDERSTANDABLE LANGUAGE BYTE CODE 
+
+//COMPAILATION  -->COMPILER   .JAVA --->COMPILER ---->.CLASS ---->JVM-->OUTPUT
+
+//JAVAC FILENAME.JAVA-->.CLASS  COMPILER    A-->65->0101110
+
+//JAVA CLASSNAME  -->JVM
+
+
+//int a=123;a=234
+
+//arrays -->multiple values
