@@ -1,3 +1,6 @@
+
+DAY-1
+
 Language :
 ==========
 	English--->communication with humans
@@ -108,7 +111,7 @@ IDE-->eclipse,my eclipse,intellji,vscode,......
 
 APPLICATIONS:
 =============
-1)STANDALONE / DESKTOP APPLICATIONS    ECLIPSE,VLS MEDIA PALYER,ANTI VIRUS...
+1)STANDALONE / DESKTOP APPLICATIONS    ECLIPSE,VLc MEDIA PALYER,ANTI VIRUS...
 
 2)WEB APPLICATIONS   				 GMAIL,FB,INSTA,AMAZON.....urls
 
@@ -136,8 +139,8 @@ Instance and Static :
 			classname objname=new classname();
 		
 3)Access
-		static variable can be accessed by using classname 	
-		instance variable can be accessed by using objref
+		static variable can be accessed by using CLASSNAME 	
+		instance variable can be accessed by using OBJREF
 
 4)context 
 		unique data use instance
@@ -171,30 +174,87 @@ flow control:
 	
 	else
 	
-	
+	switch
 	for
 	
 	while
 	 dowhile
 	 switch 
+	 
+	 
+	 
+Day-2:
+==========
+
+command line argumants 
+
+java.util.Scanner 
+
+arrays -->multiple values
+
+		int a=123;
+		int a1[]={12,23,23,33,44};
+		int a2[]=new int[5];
+			a2[0]=90;
+			a2[1]=89;
+		
+		//index 0,1,2,3,4,
+int a1[]={12,23,23,33,44};
+		int a2[]=new int[5];
+			a2[0]=90;
+			a2[1]=89;
+			a2[3]=78;
+		
+			System.out.println(a1[3]);
+			System.out.println(a2[3]);
+			
+			
+			
+			
+Package --->folder 
+
+	pre defined   -->	java.lang ,java.util,java.time,........
+	user defined  --> com.ericcson.basic
+
+
+NOTE:
+======
+
+By default package for every java file is java.lang
+
+By default parent class for every java class is java.lang.Object
+
+
+OOPS Features
+=============
+
+				1)Performance		inheritance,polymorphisam
+				2)Security			encapsulation,abstraction
 
 
 
+inheritance:
+===========extends,implements
+
+the process of aquiring features/properties from one class to another class
+
+code reusability
+
+class X  parent /super 
+{
+
+//100 methods
+// 20 variables 
 
 
+}
 
+class Y extends X  sub /child
+{
+//20 methods
+//10 variables
 
-
-
-
-
-
-
-
-
-
-operators 
-....
+}
 
 
 
