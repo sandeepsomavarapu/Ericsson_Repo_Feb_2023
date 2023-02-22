@@ -1,7 +1,5 @@
 package com.ericcson.oops;
 
-import java.util.Date;
-
 class SuperClass
 
 {

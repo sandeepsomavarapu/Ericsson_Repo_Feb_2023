@@ -2,7 +2,7 @@ package com.ericcson.oops;
 
 class SuperParent  
 {
-	float salary=234.56f;
+	float salary=234.56f;//2g,calling ,msg
 	public void m3()//concrete method/non abstract method
 	{
 		System.out.println("welcome to india");

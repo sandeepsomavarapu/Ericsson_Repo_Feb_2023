@@ -137,6 +137,7 @@ Instance and Static :
 			object creation-->memory creation
 			
 			classname objname=new classname();
+			classname objname=new constructor();
 		
 3)Access
 		static variable can be accessed by using CLASSNAME 	
@@ -356,13 +357,52 @@ protected	:inside the package every where outside the package when it is child
 default		:only inside the package 
 
 constructor
+			1)classname objname=new constructor();
+			
+			used to intialize the object
+			A a=new A();
+			2)default values for instance variables
+			
+			
+		2 types constructors
+			
+			1)default constructor
+			2)parameterized constructor
+			
+			A
+			
+		public 	A()
+			{
+			
+			
+			}
+		public 	A(String name)
+			{
+			
+			
+			}	
 
 this
-
+		this keyword used to represent CURRENT class properties(variable,method,object,constructor)
+		
 super
-
-Encapsulation
-
+		super is used to represent PARENT class properties
+		
+Encapsulation:
+==============
+wrapping up of data and behaviours together 
+			
+			class
+			{
+			variables
+			
+			& 
+			
+			methods
+			
+			}
+			
+	
 String,StringBuffer,StringBuilder
 
 ExceptionHandling
