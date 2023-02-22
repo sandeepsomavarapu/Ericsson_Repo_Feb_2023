@@ -341,6 +341,7 @@ method name is same implementation is different
 
 Day-3 :
 ========
+
 final -->we can apply @ 3 places
 
 	final before variable-->we can not change final variable value thorough out program
@@ -403,17 +404,50 @@ wrapping up of data and behaviours together
 			}
 			
 	
-String,StringBuffer,StringBuilder
+String,StringBuffer,StringBuilder:  java.lang
+---------------------------------
+	if we want to represent group chars will go s,sb,sbuilder
+
+String literal
+
+		String name="mahesh";//
+
+String 	imuttable(fixed)
+StringBuffer and StringBuilder (muttable)
+
+String object will get memeory space inside the heap area seperate memory area called SCP(String constant pool)
+
+Inside SCP duplicates are not allowed 
+
+
+
+
+https://www.w3schools.com/java/java_ref_string.asp
+
+
+
+StringBuffer methods are synchronized 
+StringBuilder methods are not synchronized
+
+													threads
+												t1,t2,t3
+public synchronized void m1()
+{
+
+
+}
+public  void m2()
+{
+
+
+}
+
+
+
+
+
+
+
+
 
 ExceptionHandling
-
-
-
-
-
-
-
-
-
-
-
