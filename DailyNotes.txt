@@ -442,6 +442,38 @@ public  void m2()
 
 }
 
+DAY 4:
+===========
+
+
+
+MCQ Link:
+========
+http://www.maamu.itgo.com/other/javaquiz1.htm
+
+
+ExceptionHandling:
+==================
+
+
+
+1)system defined error messages 
+
+2)abnormal termination
+
+
+class Test
+{
+..
+...2
+...
+...
+.....
+.
+
+.
+.
+.
 
 
 
@@ -450,4 +482,42 @@ public  void m2()
 
 
 
-ExceptionHandling
+}
+
+1)user friendly error messages
+2)normal termination
+
+Exception handling:
+===================
+mechanisam converting system defined error messages into user friendly error msgs
+
+try
+catch
+finally
+throw
+throws
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
