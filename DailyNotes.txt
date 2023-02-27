@@ -503,10 +503,154 @@ throws
 
 
 
+Assignment
+=============
+
+InvalidCredentialsException
 
 
 
 
+Scanner -->username and password 
+
+		ericcson & ericcson@123   ->welcome user
+		
+		throw InvalidCredentialsException-->enter valid credentials
+
+
+
+I/O Streams:
+=============
+
+				file<---java app-->End user
+
+				bytes
+				objects
+				character 
+
+
+file I/O   stream 
+
+Character stream(FileWriter,FileReader,BufferedReader,BufferedWriter,PrintWriter)
+
+Byte stream(OutputStream,InputStream,FileOutputStream,FileInputStream)2 bytes
+
+Data Stream(DataInput,DataOutput,DataInputStream,DataOutputStream)
+
+Buffered Stream(Reader,Writer,BufferedInputStream,BufferedOutputStream)1024 bytes
+
+Object Stream(ObjectInputStream,ObjectOutputStream) Serialization/de-serialization
+	
+	transient keyword.
+	
+	
+	Serializable-->empty body--->marker interfaces
+	Clonnable---->cloning
+	RandomAccess -->zero abstract methods
+
+	java.io.Ser
+	
+	Emp e=new Emp();//Serilizable
+	
+	//interface --> any no of methods
+	
+	//marker interface --> no methods 
+	
+	//functional interface -->only one abstract method
+	
+java app-->file
+
+java.io
+
+File -->
+
+FileWriter -->write 
+
+//the process of converting object data into byte data is called serialization
+//the process of converting byte data into object data is called de-serialization	
+
+
+
+
+take the username and password 
+
+if username & password is avaiable in the file then login success /failure 
+
+
+int a=123;
+
+	a=a+1;
+	
+	a+=1
+
+Collections:
+============
+	variables	
+			int a=123;
+	Arrays
+			int a1[]={2,3,4,6,7,8};//index
+			int a2[]=new int[5];
+			
+
+	1)	arrays are fixed in size 				AIOE
+	2) homogeneous data only allowed 
+	3)no utility methods
+	
+	collections framework
+	
+	1)collections are not fixed in size / growable in nature   ArrayList al=new ArrayList();//10,16 (cc*3/2)+1
+	2)homogeneous ,heterogeneous data only allowed 
+	3)100's utility methods
+
+		java.util
+							Collection
+					List 				 Set
+
+1)duplicates are allowed 				1)set will not allow duplicates
+2)insetion order is preserved 			2)set will not follow insertion order
+
+
+
+		AL,LL,V,S							HS,LHS,TS
+
+
+** all the collection framework classes will allow both homogeneous and heterogeneous data except Treeset ,Treemap
+
+Multi threading
+
+
+java8 features 
+
+
+case study
+
+
+
+ArrayList:
+==========
+
+1)Al is recommended when ever our frequent operation selection
+
+2)Al is not recommended when ever our frequent operation insertion or deletion in the middle
+
+
+LinkedList:
+===========
+1)LinkedList is recommended when ever our frequent operation in  insertion or deletion in the middle.
+
+2)LL is not recommended when ever our frequent operation selection
+
+
+ArrayList(cc*3/2)+1 and Vector(10 double the size)
+
+1)AL methods are not synchronized
+
+2)Vector methods are synchronized
+
+
+Stack:
+
+		FILO,LIFO
 
 
 
