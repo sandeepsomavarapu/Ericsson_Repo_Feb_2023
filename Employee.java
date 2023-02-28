@@ -1,64 +1,69 @@
-package com.ericcson.io;
+package com.ericcson.collections;
 
-import java.io.Serializable;
+public class Employee {
 
-public class Employee implements Serializable {
+	private int empId;
+	private String empname;
 
-	private int eid;
-	private String ename;
-	private float esal;
-	private String erole;
-
-	@Override
-	public String toString() {
-		return "Employee [eid=" + eid + ", ename=" + ename + ", esal=" + esal + ", erole=" + erole + "]";
+	public int getEmpId() {
+		return empId;
 	}
 
-	// setters and getters
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+
+	public String getEmpname() {
+		return empname;
+	}
+
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	}
+
 	public Employee() {
 		System.out.println("default constructor");
 	}
 
-	public Employee(int eid, String ename, float esal, String erole) {
+	public Employee(int empId, String empname) {
 		super();
-		this.eid = eid;
-		this.ename = ename;
-		this.esal = esal;
-		this.erole = erole;
+		this.empId = empId;
+		this.empname = empname;
 	}
 
-	public int getEid() {
-		return eid;
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empname=" + empname + "]";
 	}
 
-	public void setEid(int eid) {
-		this.eid = eid;
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + empId;
+		System.out.println(result);
+		result = prime * result + ((empname == null) ? 0 : empname.hashCode());
+		System.out.println(result);
+		return result;
 	}
 
-	public String getEname() {
-		return ename;
-	}
-
-	public void setEname(String ename) {
-
-		this.ename = ename;
-
-	}
-
-	public float getEsal() {
-		return esal;
-	}
-
-	public void setEsal(float esal) {
-		this.esal = esal;
-	}
-
-	public String getErole() {
-		return erole;
-	}
-
-	public void setErole(String erole) {
-		this.erole = erole;
+	@Override
+	public boolean equals(Object obj) {// ==emp ,emp1
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		if (empId != other.empId)
+			return false;
+		if (empname == null) {
+			if (other.empname != null)
+				return false;
+		} else if (!empname.equals(other.empname))
+			return false;
+		return true;
 	}
 
 }
