@@ -744,6 +744,48 @@ run(){
 
 }
 
+Java API multithreading
+
+
+https://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.html
+
+
+yield :
+=======
+	priorities -->(1-10)
+	yield()
+	join()
+					pause
+		t1-7       t2-4        t3-6       t4-9
+					yield
+		
+		
+
+	
+sunchronization
+
+
+
+inter thread communication
+
+
+wait notify notifyAll
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
